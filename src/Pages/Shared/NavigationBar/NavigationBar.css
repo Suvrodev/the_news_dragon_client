@@ -2,5 +2,8 @@ a{
     text-decoration: none;
     color: black;
     font-weight: 700;
-    margin-left: 10px;
+   
+}
+.profileName{
+    font-size: 1.8rem;
 }

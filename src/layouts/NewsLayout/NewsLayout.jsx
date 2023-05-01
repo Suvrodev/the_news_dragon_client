@@ -5,7 +5,7 @@ import RightNav from "../../Pages/Shared/RightNav/RightNav";
 import Footer from "../../Pages/Shared/Footer/Footer";
 import { Outlet } from "react-router-dom";
 
-const NewLayout = () => {
+const NewsLayout = () => {
   return (
     <div>
       <Header></Header>
@@ -25,4 +25,4 @@ const NewLayout = () => {
   );
 };
 
-export default NewLayout;
+export default NewsLayout;

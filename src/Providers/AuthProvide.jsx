@@ -5,11 +5,14 @@ import app from '../firebase/firebase.config';
 export const AuthContext=createContext(null);
 
 const AuthProvide = ({children}) => {
-
     const auth=getAuth(app)
 
+    const user={
+        name: "Suvrodev"
+    }
+
     const authInfo={
-        name:'Suvrodeb'
+        user,
     }
     return (
         <AuthContext.Provider value={authInfo}>
